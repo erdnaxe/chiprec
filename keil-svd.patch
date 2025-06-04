@@ -1,0 +1,78 @@
+diff -ur keil-svd-a/FMSH/FM33LC0XX.SVD keil-svd/FMSH/FM33LC0XX.SVD
+--- keil-svd-a/FMSH/FM33LC0XX.SVD	2025-01-16 21:54:13.939653725 +0100
++++ keil-svd/FMSH/FM33LC0XX.SVD	2025-01-16 21:54:22.895398164 +0100
+@@ -14701,26 +14701,6 @@
+       </registers>
+     </peripheral>
+     <peripheral>
+-      <name>
+-      </name>
+-      <description>
+-      </description>
+-      <groupName>
+-      </groupName>
+-      <baseAddress>
+-      </baseAddress>
+-      <addressBlock>
+-        <offset>
+-        </offset>
+-        <size>
+-        </size>
+-        <usage>
+-        </usage>
+-      </addressBlock>
+-      <registers>
+-      </registers>
+-    </peripheral>
+-    <peripheral>
+       <name>SCU</name>
+       <description>SCU module information</description>
+       <groupName>SCU</groupName>
+diff -ur keil-svd-a/Nuvoton/N569J.svd keil-svd/Nuvoton/N569J.svd
+--- keil-svd-a/Nuvoton/N569J.svd	2025-01-16 22:05:14.646868677 +0100
++++ keil-svd/Nuvoton/N569J.svd	2025-01-16 22:05:26.095398681 +0100
+@@ -8950,7 +8950,7 @@
+           <fields>
+             <field>
+               <name>ZOH_DIV</name>
+-              <description>DPWM Zero Order Hold, down-sampling divisor.\nThe input sample rate of the DPWM is set by HCLK frequency and the divisor set in this register by the following formula:\n\n&#55349;&#56377;\n&#55349;&#56416;\n&#55349;&#56379;\n&#55349;&#56375;&#55349;&#56380;&#55349;&#56393;\n&#247;64\nValid range is 1,..,255. Default is 48, which gives a sample rate of 16kHz for a 49.152 MHz (default) HCLK.</description>
++              <description>DPWM Zero Order Hold, down-sampling divisor.\nThe input sample rate of the DPWM is set by HCLK frequency and the divisor set in this register by the following formula:\n\nValid range is 1,..,255. Default is 48, which gives a sample rate of 16kHz for a 49.152 MHz (default) HCLK.</description>
+               <bitOffset>0</bitOffset>
+               <bitWidth>8</bitWidth>
+               <access>read-write</access>
+diff -ur keil-svd-a/Nuvoton/N570H064.svd keil-svd/Nuvoton/N570H064.svd
+--- keil-svd-a/Nuvoton/N570H064.svd	2025-01-16 22:05:14.655868293 +0100
++++ keil-svd/Nuvoton/N570H064.svd	2025-01-16 22:06:05.687032299 +0100
+@@ -8950,7 +8950,7 @@
+           <fields>
+             <field>
+               <name>ZOH_DIV</name>
+-              <description>DPWM Zero Order Hold, down-sampling divisor.\nThe input sample rate of the DPWM is set by HCLK frequency and the divisor set in this register by the following formula:\n\n&#55349;&#56377;\n&#55349;&#56416;\n&#55349;&#56379;\n&#55349;&#56375;&#55349;&#56380;&#55349;&#56393;\n&#247;64\nValid range is 1,..,255. Default is 48, which gives a sample rate of 16kHz for a 49.152 MHz (default) HCLK.</description>
++              <description>DPWM Zero Order Hold, down-sampling divisor.\nThe input sample rate of the DPWM is set by HCLK frequency and the divisor set in this register by the following formula:\n\n\nValid range is 1,..,255. Default is 48, which gives a sample rate of 16kHz for a 49.152 MHz (default) HCLK.</description>
+               <bitOffset>0</bitOffset>
+               <bitWidth>8</bitWidth>
+               <access>read-write</access>
+diff -ur keil-svd-a/Nuvoton/NSC128L42_v1.svd keil-svd/Nuvoton/NSC128L42_v1.svd
+--- keil-svd-a/Nuvoton/NSC128L42_v1.svd	2025-01-16 22:05:14.769863430 +0100
++++ keil-svd/Nuvoton/NSC128L42_v1.svd	2025-01-16 22:06:32.279318409 +0100
+@@ -24916,7 +24916,7 @@
+             </field>
+             <field>
+               <name>TESTEN</name>
+-              <description>Constant Current for Testing & Triming Output\n</description>
++              <description>Constant Current for Testing and Triming Output\n</description>
+               <bitOffset>31</bitOffset>
+               <bitWidth>1</bitWidth>
+               <enumeratedValues>
+diff -ur keil-svd-a/Nuvoton/NSC74_v2.svd keil-svd/Nuvoton/NSC74_v2.svd
+--- keil-svd-a/Nuvoton/NSC74_v2.svd	2025-01-16 22:05:14.773863260 +0100
++++ keil-svd/Nuvoton/NSC74_v2.svd	2025-01-16 22:07:24.376327043 +0100
+@@ -986,7 +986,7 @@
+           <fields>
+             <field>
+               <name>ICE_EN</name>
+-              <description>This bit will set ICE_CLK & ICE_DAT enable or disable\n</description>
++              <description>This bit will set ICE_CLK and ICE_DAT enable or disable\n</description>
+               <bitOffset>0</bitOffset>
+               <bitWidth>1</bitWidth>
+               <enumeratedValues>
